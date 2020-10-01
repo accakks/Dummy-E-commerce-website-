@@ -75,7 +75,11 @@ background-size: cover;
  border-radius: 4px;
  float:left;
  margin-left:1%;
-
+transition: all 1s ease-in-out;
+}
+.items:hover{
+    transform: translate(10px,-10px);
+    box-shadow: -3px 3px 10px 3px black ;
 }
 
 .thumbnail
@@ -101,6 +105,9 @@ background-size: cover;
  position:static;
 bottom: 0;
  width: 100%;
+}
+.items:hover .commodity{
+    text-shadow: 2px 2px  black;
 }
 
 
